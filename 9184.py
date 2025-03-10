@@ -16,6 +16,6 @@ def w(a,b,c):
 
 while(True):
     a, b, c = map(int,input().split())
-    if a and b and c == -1:
+    if a == -1 and b == -1 and c == -1:
         break
     print(f'w({a}, {b}, {c}) = {w(a,b,c)}')

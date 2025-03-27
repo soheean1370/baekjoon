@@ -17,4 +17,4 @@ if n > 2:
 for i in range(3, n):
     d[i] = max(d[i-1], d[i-3]+wine[i-1]+wine[i], d[i-2]+wine[i])
 
-print(d[n-1])
+print(d[n-1]) 
